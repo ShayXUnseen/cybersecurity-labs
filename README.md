@@ -1,5 +1,7 @@
 # cybersecurity-labs
+
 ## Lab 1: Basic terminal navigation commands.
+
 Let me give you an overview. The `ls` command lists the directories and files present in the current directory. The `cd` command changes the directory, while `cd ..` changes the directory one step up. The `mkdir` command creates a directory. `nano` is an editor, so `nano` followed by a file name opens that file for editing and creates it when you save it if it does not already exist.
 
 The `cp` command copies a file, while `rm` deletes a file. The `mv` command is used to move as well as rename a file.
