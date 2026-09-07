@@ -1,5 +1,5 @@
 # cybersecurity-labs
-##Lab 1: Basic terminal navigation commands
+## Lab 1: Basic terminal navigation commands.
 Today I learned various Linux terminal commands.
 
 Let me give you an overview. The `ls` commands list the directories present. The `cd` command changes the directory, while `cd ..` changes the directory one step up. The `mkdir` command creates a directory. `nano` is an editor, so `nano` followed by a file name opens or creates that file.
