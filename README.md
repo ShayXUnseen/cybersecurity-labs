@@ -31,11 +31,13 @@ I also learned how to use flags with `grep` to make it more useful:
 - `-i` ignores whether the letters are uppercase or lowercase.
 - `-v` excludes specific words from the search.
 - `-n` displays the exact line number where the word was found.
+<img width="1152" height="648" alt="Day5_Head_Tail" src="https://github.com/user-attachments/assets/7bc7e0dd-240b-4d53-954e-ee9d86921f76" />
+<img width="1152" height="648" alt="Day5_Grep_success" src="https://github.com/user-attachments/assets/d6981dc5-5d57-440a-a240-96fdfff89614" />
 
 As a challenge, I simulated a real security threat hunt. I created a mock server log and used the command `grep "10.0.0.50" auth.log` to instantly isolate a suspicious IP address and find out which usernames they were trying to target. 
 
 Here's the proof of my progress:
-<img width="1152" height="648" alt="Day5_Head_Tail" src="https://github.com/user-attachments/assets/7bc7e0dd-240b-4d53-954e-ee9d86921f76" />
-<img width="1152" height="648" alt="Day5_Grep_success" src="https://github.com/user-attachments/assets/d6981dc5-5d57-440a-a240-96fdfff89614" />
+
+
 <img width="1152" height="648" alt="Day5_Grep_messy_search1" src="https://github.com/user-attachments/assets/a6963517-d8a6-4081-a8ba-712ccf37a690" />
 
