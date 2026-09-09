@@ -54,5 +54,7 @@ Today I completed a practical log audit scenario to strengthen my terminal navig
 - Managed and backed up log evidence using `cp` and `mv`.
 
 Here's the proof of my progress:
+<img width="1295" height="737" alt="image" src="https://github.com/user-attachments/assets/4870e413-af43-41ad-a32e-2f5c8d925405" />
+
 
 
