@@ -42,4 +42,17 @@ Here's the proof of my progress:
 
 <img width="854" height="361" alt="Day5_Grep_messy_search1" src="https://github.com/user-attachments/assets/bc47f66d-55b2-4a40-a354-22aad92d3297" />
 
+## 🕵️ Mini-Project: Web Server Log Audit
+*Completed on: 9 September 2026*
+
+Today I completed a practical log audit scenario to strengthen my terminal navigation and `grep` searching skills. 
+
+- Created an organized directory structure (`server_audit/raw_logs` and `evidence`).
+- Inspected web server access logs using `head` and `tail`.
+- Used `grep -i` to hunt for critical error entries.
+- Isolated suspicious scanning activity from IP `45.33.32.156` using line-number auditing (`grep -n`).
+- Managed and backed up log evidence using `cp` and `mv`.
+
+Here's the proof of my progress:
+
 
