@@ -113,6 +113,30 @@ When performing incident response or host investigation, inspecting network inte
 <img width="1287" height="394" alt="image" src="https://github.com/user-attachments/assets/f45ff4d6-8494-4cd8-a8ec-e83ef5acd10c" />
 
 
+## 🕵️ Mini-Project: Friday Incident Response & Network Audit
+*Completed on: 11 September 2026*
+
+**Objective:**
+Investigate a reported connection issue and a suspected brute-force attack on a newly deployed staging server. My goal was to perform network diagnostics, hunt through authentication logs for malicious activity, and harden exposed configuration files.
+
+**Task 1: Host & Network Diagnostics**
+- **Action:** Verified my local identity using `ip a` and tested internal/external connectivity.
+- **Observation:** My host was identified as `10.0.2.15/24`. All local loopback and external pings were successful, confirming the network stack is healthy even though internal DNS resolution was flagged as a potential issue in the logs.
+
+**Task 2: Threat Hunting & Log Analysis**
+- **Action:** Audited `auth_network.log` for failed login attempts using `grep -n`.
+- **Finding:** I successfully isolated a brute-force attack originating from IP `198.51.100.99`. The malicious activity was documented on lines **2, 3, and 5** of the audit log.
+
+**Task 3: System Hardening (PoLP)**
+- **Action:** Identified a sensitive credentials file (`db_credentials.env`) with insecure permissions. I applied the **Principle of Least Privilege (PoLP)** using `chmod 600`.
+- **Result:** The file permissions were updated to `-rw-------`, ensuring only the owner can access the database secrets.
+
+**Security Relevance:**
+This project demonstrates the transition from basic administration to active defense. Detecting brute-force patterns in logs is critical for **Incident Response**, while hardening file permissions is a fundamental step in **Operating System Hardening** to prevent internal data leaks [3, 4].
+
+**Evidence:**
+<img width="1297" height="655" alt="11-09-2026 lab" src="https://github.com/user-attachments/assets/4ef12195-ab33-4029-92a8-028138213390" />
+<img width="1303" height="482" alt="11-09-2026 lab 02" src="https://github.com/user-attachments/assets/84dd08da-8e5f-4e86-b77a-1a9abae6ac85" />
 
 
 
