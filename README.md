@@ -18,3 +18,4 @@ networking, log analysis, and system hardening.
 | 9 | [UFW Firewall](labs/09-firewall-ufw.md) | Default-deny posture |
 | 10 | [Network Segmentation](labs/10-network-segmentation.md) | Namespaces, veth |
 | 11 | [Virtual Switch & Routing](labs/11-virtual-switch-routing.md) | Bridging, iptables |
+| 12 | [Windows Event Viewer](labs/12-windows-event-viewer.md) | logs, filtering |
