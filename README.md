@@ -21,3 +21,4 @@ networking, log analysis, and system hardening.
 | 12 | [Windows Event Viewer](labs/12-windows-event-viewer.md) | logs, filtering |
 | 13 | [Failed Login Detection EventViewer](labs/13-failed-logon-detection.md) | failed login, detection |
 | 14 | [Sysmon Process Monitoring](labs/14-sysmon-process-monitoring.md) | Process Monitoring, ParentImage |
+| 15 | [Splunk Event Forwarding](labs/15-splunk-universal-forwarder.md) | Forwarding, Monitoring |
